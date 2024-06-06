@@ -23,7 +23,7 @@ const data: Resume = await response.json();
       <div class="mx-auto max-w-3xl px-6 lg:px-8">
         <div class="mx-auto flex">
           <img
-            src="https://raw.githubusercontent.com/nusendra/blog/master/static/profile.webp"
+            src={data.avatarUrl}
             class="rounded-full h-24"
           />
           <div class="flex-1 self-center text-right">
@@ -36,7 +36,7 @@ const data: Resume = await response.json();
               {data.title}
             </p>
             <p class="text-sm leading-8 text-gray-600 self-center">
-              <a href="https://nusendra.com/maps" target="_blank">
+              <a href={data.addressUrl} target="_blank">
                 <GlobeIcon display="inline" /><span class="hover:underline"
                   >{data.address}</span
                 >

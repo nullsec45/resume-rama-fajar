@@ -1,7 +1,9 @@
 export interface Resume {
   name: string;
   title: string;
+  avatarUrl: string;
   address: string;
+  addressUrl: string;
   about: string;
   objectives: string[];
   links: Link[];
