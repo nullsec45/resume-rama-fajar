@@ -1,0 +1,38 @@
+---
+import LinkedInIcon from "../svg-components/linkedin.astro";
+import XIcon from "../svg-components/x.astro";
+import FacebookIcon from "../svg-components/facebook.astro";
+import InstagramIcon from "../svg-components/instagram.astro";
+import YoutubeIcon from "../svg-components/youtube.astro";
+import GithubIcon from "../svg-components/github.astro";
+import GoogleMaps from "../svg-components/google-maps.astro";
+
+import type { Link } from "../types";
+
+const { id } = Astro.props;
+
+const socialMediaIcon = (id: Link["id"]) => {
+  switch (id) {
+    case "github":
+      return GithubIcon;
+    case "linkedin":
+      return LinkedInIcon;
+    case "x":
+      return XIcon;
+    case "facebook":
+      return FacebookIcon;
+    case "instagram":
+      return InstagramIcon;
+    case "youtube":
+      return YoutubeIcon;
+    case "maps":
+      return GoogleMaps;
+    default:
+      return "<div>-</div>";
+  }
+};
+
+const Component = socialMediaIcon(id);
+---
+
+<Component />

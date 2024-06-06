@@ -1,0 +1,215 @@
+{
+    "name": "Nusendra Hanggarawan",
+    "title": "Fullstack Developer",
+    "address": "Gresik, East Java, Indonesia, 61177",
+    "about": "",
+    "objectives": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+    ],
+    "links": [
+        {
+            "id": "maps",
+            "name": "Maps",
+            "url": "https://nusendra.com/maps"
+        },
+        {
+            "id": "github",
+            "name": "Github",
+            "url": "https://nusendra.com/github"
+        },
+        {
+            "id": "linkedin",
+            "name": "LinkedIn",
+            "url": "https://nusendra.com/linkedin"
+        },
+        {
+            "id": "youtube",
+            "name": "Youtube",
+            "url": "https://nusendra.com/youtube"
+        },
+        {
+            "id": "x",
+            "name": "X / Twitter",
+            "url": "https://nusendra.com/x"
+        },
+        {
+            "id": "instagram",
+            "name": "Instagram",
+            "url": "https://nusendra.com/ig"
+        }
+    ],
+    "workExperiences": [
+        {
+            "id": 1,
+            "companyName": "Company A",
+            "location": "Surabaya, Indonesia",
+            "years": "2001 - 2002",
+            "roles": "Fullstack Developer",
+            "jobDesc": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+            ],
+            "type": "Onsite"
+        },
+        {
+            "id": 2,
+            "companyName": "Company A",
+            "location": "Surabaya, Indonesia",
+            "years": "2001 - 2002",
+            "roles": "Fullstack Developer",
+            "jobDesc": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+            ],
+            "type": "Onsite"
+        },
+        {
+            "id": 3,
+            "companyName": "Company A",
+            "location": "Surabaya, Indonesia",
+            "years": "2001 - 2002",
+            "roles": "Fullstack Developer",
+            "jobDesc": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+            ],
+            "type": "Remote"
+        },
+        {
+            "id": 4,
+            "companyName": "Company A",
+            "location": "Surabaya, Indonesia",
+            "years": "2001 - 2002",
+            "roles": "Fullstack Developer",
+            "jobDesc": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+            ],
+            "type": "Remote"
+        },
+        {
+            "id": 5,
+            "companyName": "Company A",
+            "location": "Surabaya, Indonesia",
+            "years": "2001 - 2002",
+            "roles": "Fullstack Developer",
+            "jobDesc": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+            ],
+            "type": "Remote"
+        },
+        {
+            "id": 6,
+            "companyName": "Company A",
+            "location": "Surabaya, Indonesia",
+            "years": "2001 - 2002",
+            "roles": "Fullstack Developer",
+            "jobDesc": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+            ],
+            "type": "Remote"
+        }
+    ],
+    "educations": [
+        {
+            "id": 1,
+            "title": "Associate Degree of Informatics",
+            "schoolName": "Harvard",
+            "location": "Planet Mars",
+            "years": "2009 - 2011"
+        },
+        {
+            "id": 2,
+            "title": "Associate Degree of Informatics",
+            "schoolName": "Harvard",
+            "location": "Planet Mars",
+            "years": "2009 - 2011"
+        }
+    ],
+    "additionalActivities": [
+        {
+            "type": "Mentoring",
+            "activities": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+            ]
+        },
+        {
+            "type": "Mentoring",
+            "activities": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+            ]
+        },
+        {
+            "type": "Mentoring",
+            "activities": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "type": "Frontend",
+            "tools": [
+                "Reactjs",
+                "Nextjs",
+                "React Native",
+                "Vuejs"
+            ]
+        },
+        {
+            "type": "Backend",
+            "tools": [
+                "Javascript",
+                "Node.js",
+                "Bun.js",
+                "PHP"
+            ]
+        },
+        {
+            "type": "Database",
+            "tools": [
+                "PostgreSQL",
+                "MySQL",
+                "Redis",
+                "MongoDB"
+            ]
+        },
+        {
+            "type": "Others",
+            "tools": [
+                "TypeScript",
+                "TailwindCSS",
+                "Monorepo"
+            ]
+        }
+    ]
+}
