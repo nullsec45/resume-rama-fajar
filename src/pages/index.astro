@@ -7,7 +7,7 @@ import Divider from "../components/Divider.astro";
 // Use this code if you want to get JSON data from an API
 import type { Resume } from "../types";
 
-const response = await fetch(import.meta.env.URL);
+const response = await fetch(import.meta.env.API_URL);
 const data: Resume = await response.json();
 
 // Use the code below if you want to use a local JSON file.
