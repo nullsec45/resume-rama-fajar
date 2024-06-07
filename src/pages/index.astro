@@ -4,10 +4,16 @@ import CheckIcon from "../svg-components/check.astro";
 import SvgIcon from "../components/SvgIcon.astro";
 import Divider from "../components/Divider.astro";
 
+// Use this code if you want to get JSON data from an API
 import type { Resume } from "../types";
 
 const response = await fetch(import.meta.env.URL);
 const data: Resume = await response.json();
+
+// Use the code below if you want to use a local JSON file.
+// import data from "../../data-example.json"
+
+// You can choose the methods that best fit your needs and delete the unused ones.
 ---
 
 <html lang="en">
