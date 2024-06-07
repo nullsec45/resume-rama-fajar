@@ -6,6 +6,8 @@ My resume will serve as the example, click this [resume.nusendra.com](http://res
 
 - Create a `.env` file and set up your URL (your API data).
 - You can see an example of the data in `data-example.json`.
+- Don't forget to change the favicon.svg in public folder
+    with your own favicon
 - Build and deploy your application.
 
 ## 🧞 Commands
