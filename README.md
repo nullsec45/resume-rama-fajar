@@ -1,5 +1,7 @@
 # Resume Template
 
+My resume will serve as the example, click this [resume.nusendra.com](http://resume.nusendra.com)
+
 ## Steps
 
 - Create a `.env` file and set up your URL (your API data).
