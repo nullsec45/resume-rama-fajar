@@ -7,11 +7,11 @@ import Divider from "../components/Divider.astro";
 // Use this code if you want to get JSON data from an API
 import type { Resume } from "../types";
 
-const response = await fetch(import.meta.env.API_URL);
-const data: Resume = await response.json();
+// const response = await fetch(import.meta.env.API_URL);
+import data from "../../data-example.json"
+// const data: Resume = await response.json();
 
 // Use the code below if you want to use a local JSON file.
-// import data from "../../data-example.json"
 
 // You can choose the methods that best fit your needs and delete the unused ones.
 ---
@@ -48,7 +48,7 @@ const data: Resume = await response.json();
                 >
               </a>
             </p>
-            <div class="flex justify-end mt-[-60px] mb-[-60px]">
+            <div class="flex justify-end mt-[-30px] mb-[-60px]">
               {
                 data.links.map((item) => (
                   <a href={item.url} target="_blank" class="self-center">
@@ -60,7 +60,7 @@ const data: Resume = await response.json();
           </div>
         </div>
 
-        <div class="text-2xl font-bold tracking-tight text-gray-900 sm:text-xl">
+        <div class="text-2xl font-bold tracking-tight text-gray-900 sm:text-xl mt-20">
           Resume Objectives
         </div>
         <Divider />
@@ -99,12 +99,12 @@ const data: Resume = await response.json();
         {data.workExperiences.sort((a, b) => b.id - a.id).map((item) => (
           <div class="mt-5">
             <div class="text-sm font-medium tracking-tight text-gray-900 sm:text-lg mt-2">
-                 {item.companyName}, <span class="text-gray-700 font-normal">{item.roles}</span>
+                 {item.companyName !== "" ? `${item.companyName},` : ""} <span class="text-gray-700 font-normal">{item.roles}</span>
               <span class="inline-flex items-center rounded-md bg-blue-50 px-2 py-0.5 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10 ml-2">{item.type}</span>
             </div>
 
             <div class="text-sm font-normal tracking-tight text-gray-900 sm:text-sm">
-              {item.location}, {item.years}
+              {item.location !== "" ? `${item.location},` : ""} {item.years}
             </div>
 
             <ul
